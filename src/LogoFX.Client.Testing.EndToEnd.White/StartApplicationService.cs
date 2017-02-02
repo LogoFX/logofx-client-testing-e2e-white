@@ -20,7 +20,7 @@ namespace LogoFX.Client.Testing.EndToEnd.White
             /// </summary>
             /// <param name="startupPath">The startup path.</param>
             public override void StartApplication(string startupPath)
-            {
+            {                
                 BuildersCollectionContext.SerializeBuilders();
                 StartApplicationHelper.StartApplication(startupPath);
             }
