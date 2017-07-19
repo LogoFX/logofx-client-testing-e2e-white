@@ -4,7 +4,7 @@ using TestStack.White;
 namespace LogoFX.Client.Testing.EndToEnd.White
 {   
     /// <summary>
-    /// Helper class for starting an application using <see cref="TestStack.White"/> framework
+    /// Implementation of application facade <see cref="TestStack.White"/> framework
     /// </summary>
     public class ApplicationFacade : IApplicationFacade
     {
