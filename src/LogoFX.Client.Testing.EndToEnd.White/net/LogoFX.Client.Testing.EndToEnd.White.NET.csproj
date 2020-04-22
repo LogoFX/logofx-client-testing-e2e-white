@@ -23,14 +23,13 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>full</DebugType>
     <Optimize>true</Optimize>
-    <OutputPath>..\bin\netframework\Release\</OutputPath>
+    <OutputPath>..\..\bin\net\Release\</OutputPath>
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <DocumentationFile>..\bin\netframework\Release\LogoFX.Client.Testing.EndToEnd.White.xml</DocumentationFile>
-    <EmbedAllSources>True</EmbedAllSources>
-    <DebugType>embedded</DebugType>
+    <DocumentationFile>..\..\bin\net\Release\LogoFX.Client.Testing.EndToEnd.White.xml</DocumentationFile>
     <DebugSymbols>true</DebugSymbols>
   </PropertyGroup>
   <ItemGroup>
@@ -43,10 +42,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ApplicationContext.cs" />
+    <Compile Include="..\src\ApplicationContext.cs">
+      <Link>ApplicationContext.cs</Link>
+    </Compile>
+    <Compile Include="..\src\ApplicationFacade.cs">
+      <Link>ApplicationFacade.cs</Link>
+    </Compile>
+    <Compile Include="..\src\TeardownService.cs">
+      <Link>TeardownService.cs</Link>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="ApplicationFacade.cs" />
-    <Compile Include="TeardownService.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config">
