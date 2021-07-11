@@ -1,4 +1,4 @@
-﻿using Attest.Testing.Contracts;
+﻿using Attest.Testing.Lifecycle;
 using TestStack.White;
 
 namespace LogoFX.Client.Testing.EndToEnd.White
