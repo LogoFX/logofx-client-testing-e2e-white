@@ -8,3 +8,5 @@ Implementation of start application service and application context using TestSt
 <img src=https://img.shields.io/nuget/dt/LogoFX.Client.Testing.EndToEnd.White>
 
 [Get package](https://www.nuget.org/packages/LogoFX.Client.Testing.EndToEnd.White)
+
+This repository is archived. Its functionality has been moved to https://github.com/LogoFX/testing
